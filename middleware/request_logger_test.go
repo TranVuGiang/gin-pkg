@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/TranVuGiang/gin_pkg/middleware"
+	"github.com/TranVuGiang/gin-pkg/middleware"
 	"github.com/gin-gonic/gin"
 	"github.com/rs/zerolog/log"
 )

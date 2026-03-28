@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/TranVuGiang/gin_pkg/goredis"
-	"github.com/TranVuGiang/gin_pkg/testutil"
+	"github.com/TranVuGiang/gin-pkg/goredis"
+	"github.com/TranVuGiang/gin-pkg/testutil"
 	"github.com/stretchr/testify/require"
 )
 

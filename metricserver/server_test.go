@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/TranVuGiang/gin_pkg/metricserver"
+	"github.com/TranVuGiang/gin-pkg/metricserver"
 	"github.com/stretchr/testify/require"
 )
 

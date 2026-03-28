@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/TranVuGiang/gin_pkg/notifylog/notifier"
-	mocks "github.com/TranVuGiang/gin_pkg/notifylog/notifier/mocks"
+	"github.com/TranVuGiang/gin-pkg/notifylog/notifier"
+	mocks "github.com/TranVuGiang/gin-pkg/notifylog/notifier/mocks"
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/mock"
 )

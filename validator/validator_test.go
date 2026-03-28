@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/TranVuGiang/gin_pkg/validator"
+	"github.com/TranVuGiang/gin-pkg/validator"
 	gvalidator "github.com/go-playground/validator/v10"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

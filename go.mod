@@ -1,4 +1,4 @@
-module github.com/TranVuGiang/gin_pkg
+module github.com/TranVuGiang/gin-pkg
 
 go 1.25.1
 

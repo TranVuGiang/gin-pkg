@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/TranVuGiang/gin_pkg/postgres"
-	"github.com/TranVuGiang/gin_pkg/testutil"
+	"github.com/TranVuGiang/gin-pkg/postgres"
+	"github.com/TranVuGiang/gin-pkg/testutil"
 	"github.com/jackc/pgx/v5/tracelog"
 	"github.com/stretchr/testify/require"
 )

@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/MicahParks/keyfunc/v3"
-	"github.com/TranVuGiang/gin_pkg/notifylog"
+	"github.com/TranVuGiang/gin-pkg/notifylog"
 	"golang.org/x/time/rate"
 )
 

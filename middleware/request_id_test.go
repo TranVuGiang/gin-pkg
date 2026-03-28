@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/TranVuGiang/gin_pkg/middleware"
-	"github.com/TranVuGiang/gin_pkg/testutil"
+	"github.com/TranVuGiang/gin-pkg/middleware"
+	"github.com/TranVuGiang/gin-pkg/testutil"
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/require"

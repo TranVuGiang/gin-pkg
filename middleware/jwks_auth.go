@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/MicahParks/keyfunc/v3"
-	"github.com/TranVuGiang/gin_pkg/notifylog"
+	"github.com/TranVuGiang/gin-pkg/notifylog"
 	"github.com/gin-gonic/gin"
 	"github.com/golang-jwt/jwt/v5"
 )

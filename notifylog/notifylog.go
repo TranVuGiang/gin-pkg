@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/TranVuGiang/gin_pkg/notifylog/notifier"
+	"github.com/TranVuGiang/gin-pkg/notifylog/notifier"
 	"github.com/rs/zerolog"
 )
 

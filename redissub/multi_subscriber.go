@@ -6,7 +6,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/TranVuGiang/gin_pkg/notifylog"
+	"github.com/TranVuGiang/gin-pkg/notifylog"
 	goredis "github.com/redis/go-redis/v9"
 )
 

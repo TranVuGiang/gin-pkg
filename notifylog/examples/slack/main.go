@@ -3,8 +3,8 @@ package main
 import (
 	"os"
 
-	"github.com/TranVuGiang/gin_pkg/notifylog"
-	"github.com/TranVuGiang/gin_pkg/notifylog/notifier"
+	"github.com/TranVuGiang/gin-pkg/notifylog"
+	"github.com/TranVuGiang/gin-pkg/notifylog/notifier"
 	"github.com/rs/zerolog"
 	"github.com/slack-go/slack"
 )

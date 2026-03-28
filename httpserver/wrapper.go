@@ -9,9 +9,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/TranVuGiang/gin_pkg/middleware"
-	"github.com/TranVuGiang/gin_pkg/notifylog"
-	"github.com/TranVuGiang/gin_pkg/validator"
+	"github.com/TranVuGiang/gin-pkg/middleware"
+	"github.com/TranVuGiang/gin-pkg/notifylog"
+	"github.com/TranVuGiang/gin-pkg/validator"
 	"github.com/gin-gonic/gin"
 	playgroundvalidator "github.com/go-playground/validator/v10"
 )

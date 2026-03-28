@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	ufrpostgres "github.com/TranVuGiang/gin_pkg/postgres"
+	ufrpostgres "github.com/TranVuGiang/gin-pkg/postgres"
 	"github.com/docker/go-connections/nat"
 	"github.com/stretchr/testify/require"
 	"github.com/testcontainers/testcontainers-go"

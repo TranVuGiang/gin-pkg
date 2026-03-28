@@ -5,8 +5,8 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/TranVuGiang/gin_pkg/notifylog"
-	"github.com/TranVuGiang/gin_pkg/notifylog/notifier"
+	"github.com/TranVuGiang/gin-pkg/notifylog"
+	"github.com/TranVuGiang/gin-pkg/notifylog/notifier"
 	"github.com/nikoksr/notify/service/telegram"
 	"github.com/rs/zerolog"
 )
