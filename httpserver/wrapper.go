@@ -104,8 +104,15 @@ func bindAndValidate[TREQ any](c *gin.Context, log *notifylog.NotifyLog, path st
 
 // safeBindError returns a client-safe message for binding failures.
 func safeBindError(err error) string {
-	// Avoid leaking Go internals from JSON parsing errors.
-	return fmt.Sprintf("request body is malformed or missing required fields: %s", err.Error())
+	var ve playgroundvalidator.ValidationErrors
+	if errors.As(err, &ve) {
+		msgs := make([]string, 0, len(ve))
+		for _, fe := range ve {
+			msgs = append(msgs, fmt.Sprintf("field '%s' failed validation: %s", fe.Field(), fe.Tag()))
+		}
+		return strings.Join(msgs, "; ")
+	}
+	return "request body is malformed or missing required fields"
 }
 
 // safeValidationError converts go-playground/validator errors into human-readable messages
